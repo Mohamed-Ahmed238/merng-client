@@ -48,7 +48,7 @@ function Register() {
   }
 
   return (
-    <div className='container'>
+    <div className='container' id='rege'>
       <Form onSubmit={submitForm} className={loading ? 'loading' : ''}>
         <div className='title'>
           <h1>Register</h1>

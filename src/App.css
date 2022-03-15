@@ -13,3 +13,27 @@
   text-align: center;
   margin-bottom: 10px;
 }
+
+@media screen and (max-width: 625px) {
+  .ui.grid > .row > .column {
+    width: 100% !important;
+  }
+  .ui.grid > .row > .column:first-child {
+    margin-bottom: 20px;
+  }
+  #singlepagePost {
+    width: 100% !important;
+  }
+
+  #singlePostImage {
+    display: none;
+  }
+
+  #login {
+    width: 100%;
+  }
+
+  #rege {
+    width: 100%;
+  }
+}

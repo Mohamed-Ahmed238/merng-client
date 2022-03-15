@@ -96,14 +96,14 @@ function SinglePost() {
     Markup = (
       <Grid style={{ marginTop: 15 }}>
         <Grid.Row>
-          <Grid.Column width={2}>
+          <Grid.Column width={2} id='singlePostImage'>
             <Image
               floated='right'
               size='small'
               src='https://react.semantic-ui.com/images/avatar/large/molly.png'
             />
           </Grid.Column>
-          <Grid.Column width={10}>
+          <Grid.Column width={10} id='singlepagePost'>
             <Card fluid>
               <Card.Content>
                 <Card.Header>{username}</Card.Header>
