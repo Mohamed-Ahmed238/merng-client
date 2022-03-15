@@ -11,7 +11,9 @@ import {
 } from '@apollo/client'
 import { AuthProvider } from './Context/auth'
 
-const httpLink = new HttpLink({ uri: 'http://localhost:3001/' })
+const httpLink = new HttpLink({
+  uri: 'https://vast-sierra-97635.herokuapp.com/',
+})
 
 const authLink = new ApolloLink((operations, forward) => {
   const token = localStorage.getItem('jwtToken')
