@@ -93,7 +93,7 @@ function Register() {
           autoComplete='off'
           error={errors.password ? true : false}
         />
-        <Button type='submit' primary>
+        <Button type='submit' primary color='teal'>
           Register
         </Button>
       </Form>
