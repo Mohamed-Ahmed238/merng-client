@@ -10,7 +10,6 @@ import { Container } from 'semantic-ui-react'
 import MenuBar from './Component/MenuBar'
 import Home from './Pages/Home'
 import Register from './Pages/Register'
-import Footer from './Component/Footer'
 import Login from './Pages/Login'
 import SinglePost from './Pages/SinglePost'
 import { useContext } from 'react'
@@ -39,7 +38,6 @@ function App() {
           </Routes>
         </Router>
       </Container>
-      <Footer />
     </>
   )
 }
