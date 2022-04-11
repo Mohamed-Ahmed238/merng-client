@@ -71,7 +71,7 @@ function Login() {
           onChange={onChange}
           error={errors.password ? true : false}
         />
-        <Button type='submit' primary>
+        <Button type='submit' primary color='teal'>
           Login
         </Button>
       </Form>
